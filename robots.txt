@@ -1,5 +1,10 @@
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
+Disallow: /feed/
+Disallow: /wp-json/
+Disallow: /comments/
+Disallow: /author/
+Disallow: /archives/
 
-Sitemap: http://eubrand.local/wp-sitemap.xml
+Sitemap: https://eubrand.pl/sitemap.xml
